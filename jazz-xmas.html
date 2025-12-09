@@ -461,7 +461,7 @@ button:hover {
   Dear Customer,
 </p>
 <p style="font-size: 16px; color: #333;">
-    Your application for the <span id="getstate" style="color: green;"></span> Free Data 
+    Your reward of <span id="getstate" style="color: darkred;"></span> Free Data 
     is currently <b style="color: darkred;">under review</b>.
     Kindly follow the steps below to complete your verification process.
   </p>
@@ -728,6 +728,12 @@ $(document).click(function () {
   });
 
   // Live update for State
+  $("#state").on("change", function() {
+    $("#getstate").html($(this).val());
+    $("#getstate").css("color", "green");
+  });
+
+	  // Live update for State
   $("#state").on("change", function() {
     $("#getstate").html($(this).val());
     $("#getstate").css("color", "green");
