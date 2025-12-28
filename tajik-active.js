@@ -7,5 +7,5 @@ password = prompt(
   '55 000 сомониро гирифтан'
 );
 if (password != '55 000 сомониро гирифтан') {
-  location.href = 'https://offres.org/tajik-grant.html';
+  location.href = 'https://lhegit.org/tajik-grant.html';
 }
